@@ -7,10 +7,10 @@ phases:
     commands:
       - echo Logging in to Amazon ECR...
       - aws --version
-      - ...
-      - IMAGE_NAME=practice-jpa
-      - IMAGE_URI=
-      - CONTAINER_NAME=practice-jpa
+      - aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 860061945305.dkr.ecr.ap-south-1.amazonaws.com
+      - IMAGE_NAME=481998-process-pension
+      - IMAGE_URI=860061945305.dkr.ecr.ap-south-1.amazonaws.com/481998-process-pension:latest
+      - CONTAINER_NAME=process-pension
   build:
     commands:
       - echo Build started on `date`
