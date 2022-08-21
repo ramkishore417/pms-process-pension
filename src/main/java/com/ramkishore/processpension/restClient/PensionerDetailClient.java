@@ -5,7 +5,7 @@ import com.ramkishore.processpension.model.PensionTransactionDetail;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
-@FeignClient(name="pensioner-detail", url = "http://localhost:8002")
+@FeignClient(name="pensioner-detail", url = "${PENSIONER_DETAIL_URI : http://localhost:8002}")
 public interface PensionerDetailClient {
 
 	@GetMapping("/PensionerDetailByAadhaar/{aadhaarNumber}")
