@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:860061945305:task-definition/ramkishore-process-pension:1"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:860061945305:task-definition/ecs-ramkishore-process-pension:1"
         LoadBalancerInfo:
           ContainerName: "ecr-ramkishore-process-pension"
           ContainerPort: "8003"
