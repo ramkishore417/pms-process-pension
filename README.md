@@ -40,4 +40,7 @@ This microservice provides a POST endpoint, /ProcessPension, which takes Process
 ### Authors
 [Ramkishore](https://github.com/ramkishore417 "Ramkishore")
 
+------------
 
+### Note
+Only Authorized requests can access these REST End Points.
