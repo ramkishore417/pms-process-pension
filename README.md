@@ -23,7 +23,7 @@ This microservice provides a POST endpoint, /ProcessPension, which takes Process
 - Clone the repository: git clone https://github.com/ramkishore417/pms-process-pension.git
 - Build the project: mvn clean install
 - Run the application: mvn spring-boot:run
-- Access the token generation endpoint at http://localhost:8003/ProcessPension
+- Access endpoint at http://localhost:8003/ProcessPension
 
 ------------
 
