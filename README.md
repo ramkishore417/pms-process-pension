@@ -47,7 +47,7 @@ Private banks – INR 550*
 
 ### Non-Functional Requirement:
 
-Only Authorized requests can access these REST End Points
+- Only Authorized requests can access these REST End Points
 
 
 
