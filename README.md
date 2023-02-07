@@ -1,5 +1,5 @@
 # Pension Management System | ProcessPension Microservice
-### Functional Requirements
+## Functional Requirements
 ProcessPension Microservice should be invoked from the web application. It allows the following operations:
 - It takes in Aadhaar number and determines the Pension amount and bank service charge
 - Verifies if the pensioner detail is accurate by getting the data from PensionerDetail Microservice or not. If not, validation message “Invalid pensioner detail provided, please provide valid detail.”. If valid, then pension calculation is done and the pension detail is returned to the Web application to be displayed on the UI
