@@ -1,4 +1,6 @@
 # Pension Management System | ProcessPension Microservice
+The ProcessPension Microservice is an important component of the Pension Management System. It verifies pensioner details and calculates the pension amount based on Aadhaar number, then returns the detail to the web application for display.
+
 ## Functional Requirements
 ProcessPension Microservice should be invoked from the web application. It allows the following operations:
 - It takes in Aadhaar number and determines the Pension amount and bank service charge
